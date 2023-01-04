@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'lazy-lib';
+  time: Date;
+  lib: string = '';
+
+  constructor() {
+    this.time = new Date();
+  }
+
+  load() {
+    // import('pptxgenjs').then((lib)=>{
+    //   this.lib = lib.default?.name;
+    // })
+  }
 }

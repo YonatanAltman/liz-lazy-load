@@ -2,26 +2,24 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.5.
 
-## Development server
+## Guid
+https://www.digitalocean.com/community/tutorials/angular-angular-webpack-bundle-analyzer
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Steps:
+1) run `npm install`.
+2) run `npm run build:stats` to create the production bundle. 
+3) run `npm run analyze` to see the **webpack-bundle-analyzer** 
+4) run `npm start` and open the network tab to see the javascript files total size.
+as you can see:
+![img_1.png](img_1.png)
 
-## Code scaffolding
+5) run npm install pptxgenjs@^3.11.0 --save 
+6) uncommitted the function load: `AppComponent.load`
+7) open network and see that the js files does not load before you click load
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+[//]: # ()
+[//]: # ("jspdf": "^2.5.1",)
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+[//]: # ("pptxgenjs": "^3.11.0",)
