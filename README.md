@@ -16,6 +16,7 @@ as you can see:
 8) Open network and see that the js files does not load before you click load
 9) Only after click load the resourses are 2.9MB
    ![](ezgif-2-208aed9023.gif)
+10) repeat step 2 & 3 to see the **webpack-bundle-analyzer**
 
 
 ## Guid
