@@ -15,8 +15,8 @@ export class AppComponent {
   }
 
   load() {
-    // import('pptxgenjs').then((lib)=>{
-    //   this.lib = lib.default?.name;
-    // })
+    import('pptxgenjs').then((lib)=>{
+      this.lib = lib.default?.name;
+    })
   }
 }
